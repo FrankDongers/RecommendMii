@@ -26,6 +26,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var Text10: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(FirstViewController.globalJSON)
         if let a = UserDefaults.standard.object(forKey: "TotalExpense1") as? String{
             Text1.text = a
         }
