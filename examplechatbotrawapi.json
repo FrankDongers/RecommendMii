@@ -1,0 +1,93 @@
+{
+  "responseId": "0d9f876a-ce77-4b66-b3f4-263ef410358f",
+  "queryResult": {
+    "queryText": "quit",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Good bye!",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Good bye!"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/remembermii-464cc/agent/sessions/265aaca3-3ee4-07a6-757a-46ca1a32aa90/contexts/budgetexist",
+        "lifespanCount": 95,
+        "parameters": {
+          "Time": "Morning",
+          "occupation": "Full Time",
+          "Age.original": "50",
+          "budget": 500,
+          "budget.original": "500",
+          "occupation.original": "full time",
+          "Time.original": "mornings",
+          "Age": "50"
+        }
+      },
+      {
+        "name": "projects/remembermii-464cc/agent/sessions/265aaca3-3ee4-07a6-757a-46ca1a32aa90/contexts/ageexist",
+        "lifespanCount": 96,
+        "parameters": {
+          "occupation": "Full Time",
+          "Age.original": "50",
+          "occupation.original": "full time",
+          "Time.original": "mornings",
+          "Age": "50",
+          "Time": "Morning"
+        }
+      },
+      {
+        "name": "projects/remembermii-464cc/agent/sessions/265aaca3-3ee4-07a6-757a-46ca1a32aa90/contexts/occupationexists",
+        "lifespanCount": 97,
+        "parameters": {
+          "occupation.original": "full time",
+          "Time": "Morning",
+          "Time.original": "mornings",
+          "occupation": "Full Time"
+        }
+      },
+      {
+        "name": "projects/remembermii-464cc/agent/sessions/265aaca3-3ee4-07a6-757a-46ca1a32aa90/contexts/name",
+        "lifespanCount": 93,
+        "parameters": {
+          "Time": "Morning",
+          "occupation": "Full Time",
+          "budget.original": "500",
+          "last-name": "",
+          "occupation.original": "full time",
+          "Age": "50",
+          "Time.original": "mornings",
+          "last-name.original": "",
+          "given-name": "Jane",
+          "Menu.original": "help",
+          "Age.original": "50",
+          "budget": 500,
+          "Menu": "help",
+          "given-name.original": "Jane"
+        }
+      },
+      {
+        "name": "projects/remembermii-464cc/agent/sessions/265aaca3-3ee4-07a6-757a-46ca1a32aa90/contexts/timeexists",
+        "lifespanCount": 98,
+        "parameters": {
+          "Time": "Morning",
+          "Time.original": "mornings"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/remembermii-464cc/agent/intents/94a5858e-1e42-4870-a238-89976c211f85",
+      "displayName": "Exit"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "end_conversation": true
+    },
+    "languageCode": "en"
+  }
+}
