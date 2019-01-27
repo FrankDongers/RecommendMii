@@ -1,0 +1,60 @@
+{
+  "id": "ffb6383a-00ba-4c0f-bf56-580ffc8fab6a",
+  "name": "Name",
+  "auto": true,
+  "contexts": [
+    "ExpectName"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [
+        {
+          "name": "Name",
+          "parameters": {},
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "42c9d7d1-ca4e-4225-bb0b-6535d6c3bb85",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I didn\u0027t quite catch that"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "449e58ee-a22b-41d0-8cf4-ec3feaea1c4b",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi $given-name, make sure to set your monthly budget and age!\n\nFor help and a list of options, simply ask!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548575174,
+  "fallbackIntent": false,
+  "events": []
+}

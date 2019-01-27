@@ -1,0 +1,414 @@
+[
+  {
+    "id": "d4784469-c75d-4def-8c98-a402ae3a8fad",
+    "data": [
+      {
+        "text": "I am working ",
+        "userDefined": false
+      },
+      {
+        "text": "full time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548585098
+  },
+  {
+    "id": "d9b291fd-86d3-40a0-b595-74cadfefd41a",
+    "data": [
+      {
+        "text": "full time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      },
+      {
+        "text": " is my job status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548572754
+  },
+  {
+    "id": "7d8210e1-f28c-4c59-b6eb-a3b46e4e8f08",
+    "data": [
+      {
+        "text": "set my job status to ",
+        "userDefined": false
+      },
+      {
+        "text": "part time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548572754
+  },
+  {
+    "id": "5b7c120d-55ea-440e-ad27-97959d8eb115",
+    "data": [
+      {
+        "text": "set job status to ",
+        "userDefined": false
+      },
+      {
+        "text": "full time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548572754
+  },
+  {
+    "id": "ba3aa92f-e011-44fe-a2d3-b30f41618491",
+    "data": [
+      {
+        "text": "I work around ",
+        "userDefined": false
+      },
+      {
+        "text": "half day",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548572052
+  },
+  {
+    "id": "353f63c6-c6bc-4e2a-a75e-8da0b866c182",
+    "data": [
+      {
+        "text": "I mostly ",
+        "userDefined": false
+      },
+      {
+        "text": "work all day",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548572021
+  },
+  {
+    "id": "745a4085-0239-4dcd-a19c-901b2f781e26",
+    "data": [
+      {
+        "text": "My job is ",
+        "userDefined": false
+      },
+      {
+        "text": "all day",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565537
+  },
+  {
+    "id": "8589e4d7-cd09-4fda-aa17-c2f186de6356",
+    "data": [
+      {
+        "text": "I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "student",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565104
+  },
+  {
+    "id": "5c930263-b75f-44be-b694-d81b99d4d8de",
+    "data": [
+      {
+        "text": "I have ",
+        "userDefined": false
+      },
+      {
+        "text": "no job",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556677
+  },
+  {
+    "id": "c9ab477b-be08-4c65-8bb5-18b069da99bf",
+    "data": [
+      {
+        "text": "My occupation status is ",
+        "userDefined": false
+      },
+      {
+        "text": "partial",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556677
+  },
+  {
+    "id": "82cb6143-2cc8-4183-a811-a33556bf4c65",
+    "data": [
+      {
+        "text": "Set my occupation status to ",
+        "userDefined": false
+      },
+      {
+        "text": "fully employed",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556677
+  },
+  {
+    "id": "2a3f1e80-acf5-43b7-896d-5e10263f02f6",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "fully employed",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548552275
+  },
+  {
+    "id": "a2b8becf-861e-43de-b086-6a91148219cd",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "partially employed",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548552275
+  },
+  {
+    "id": "87031b81-dc48-4cf6-8db0-d1b3250808d1",
+    "data": [
+      {
+        "text": "Always",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      },
+      {
+        "text": " working",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550284
+  },
+  {
+    "id": "1f5fae13-2a09-4450-ad57-6c11da49cce0",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t have a job",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549474
+  },
+  {
+    "id": "6f025769-496f-4be3-9cd4-4c76aad33265",
+    "data": [
+      {
+        "text": "I work ",
+        "userDefined": false
+      },
+      {
+        "text": "full",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      },
+      {
+        "text": " time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549474
+  },
+  {
+    "id": "37a537ae-c834-4f38-80c1-eeefee9926a0",
+    "data": [
+      {
+        "text": "jobless",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  },
+  {
+    "id": "8a5476d9-a7dc-41ed-ad6d-2d40f42fa535",
+    "data": [
+      {
+        "text": "no job",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  },
+  {
+    "id": "c500f8e1-4f19-4c1d-a569-c5041915cbb0",
+    "data": [
+      {
+        "text": "none",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549232
+  },
+  {
+    "id": "489a44d7-6f84-434c-8bc5-2fe37894c651",
+    "data": [
+      {
+        "text": "Parttime",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  },
+  {
+    "id": "a8ac8f9e-6099-40a5-b18c-68fe79c3c3a8",
+    "data": [
+      {
+        "text": "Fulltime",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  },
+  {
+    "id": "6318500a-c367-4739-be61-0992a720a433",
+    "data": [
+      {
+        "text": "I have a ",
+        "userDefined": false
+      },
+      {
+        "text": "full time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556557
+  },
+  {
+    "id": "b069cd1c-db24-47e0-bd32-915d0fdc9b7e",
+    "data": [
+      {
+        "text": "part time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  },
+  {
+    "id": "dba800b5-992f-4860-a829-44b1f9cf56c5",
+    "data": [
+      {
+        "text": "full time",
+        "alias": "occupation",
+        "meta": "@Employment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548549164
+  }
+]

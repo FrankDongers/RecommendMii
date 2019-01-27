@@ -1,0 +1,53 @@
+[
+  {
+    "value": "Options",
+    "synonyms": [
+      "Options",
+      "Option"
+    ]
+  },
+  {
+    "value": "Menu",
+    "synonyms": [
+      "Menu"
+    ]
+  },
+  {
+    "value": "choices",
+    "synonyms": [
+      "choices",
+      "choice"
+    ]
+  },
+  {
+    "value": "help",
+    "synonyms": [
+      "help"
+    ]
+  },
+  {
+    "value": "problem",
+    "synonyms": [
+      "problem"
+    ]
+  },
+  {
+    "value": "Trouble",
+    "synonyms": [
+      "Trouble"
+    ]
+  },
+  {
+    "value": "assistance",
+    "synonyms": [
+      "assistance"
+    ]
+  },
+  {
+    "value": "information",
+    "synonyms": [
+      "information",
+      "info"
+    ]
+  }
+]

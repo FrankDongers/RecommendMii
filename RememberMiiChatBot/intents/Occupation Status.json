@@ -1,0 +1,82 @@
+{
+  "id": "75710309-538a-4365-9fcc-e134527d942a",
+  "parentId": "e4dfdc73-907f-46a6-be8a-7b850b41d77d",
+  "rootParentId": "67a1c1ab-40e4-4dbc-b810-62bbb28a997a",
+  "name": "Occupation Status",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Budget-custom.Age-custom",
+      "affectedContexts": [
+        {
+          "name": "occupationexists",
+          "parameters": {},
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "677d06d8-471c-4d41-be14-4db3dbbf70d8",
+          "required": true,
+          "dataType": "@Employment",
+          "name": "occupation",
+          "value": "$occupation",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I meant to ask if you work full time, part time, or are you unemployed?"
+            },
+            {
+              "lang": "en",
+              "value": "I didn\u0027t quite catch that"
+            },
+            {
+              "lang": "en",
+              "value": "Can you rephrase your answer?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you a full time worker, part time, or unemployed?"
+            },
+            {
+              "lang": "en",
+              "value": "I\u0027m sorry, I have trouble understanding your answer"
+            },
+            {
+              "lang": "en",
+              "value": "I think I may have misunderstood"
+            },
+            {
+              "lang": "en",
+              "value": "I didn\u0027t quite catch that last part"
+            },
+            {
+              "lang": "en",
+              "value": "Can you clarify?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your occupation status has been changed to $occupation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548585098,
+  "fallbackIntent": false,
+  "events": []
+}

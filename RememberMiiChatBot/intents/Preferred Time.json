@@ -1,0 +1,60 @@
+{
+  "id": "74a3664d-a1f3-489f-83cc-847319046af7",
+  "name": "Preferred Time",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Budget-custom.Age-custom.Occupation-custom",
+      "affectedContexts": [
+        {
+          "name": "timeexists",
+          "parameters": {},
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3a1befdd-a3aa-4394-968e-44620b391872",
+          "required": true,
+          "dataType": "@Time",
+          "name": "Time",
+          "value": "$Time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please clarify if you\u0027re a morning, afternoon, or night person!"
+            },
+            {
+              "lang": "en",
+              "value": "I didn\u0027t quite catch that"
+            },
+            {
+              "lang": "en",
+              "value": "Can you rephrase you answer?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, you are now known as a $Time person."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548583736,
+  "fallbackIntent": false,
+  "events": []
+}

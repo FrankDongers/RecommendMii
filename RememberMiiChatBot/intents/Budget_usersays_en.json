@@ -1,0 +1,600 @@
+[
+  {
+    "id": "977c66de-450e-4f22-949c-8a77c9371daf",
+    "data": [
+      {
+        "text": "please change my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "122",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582741
+  },
+  {
+    "id": "a508b3f8-6d99-439f-b983-dd47ff573c11",
+    "data": [
+      {
+        "text": "Would you set my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "122",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582650
+  },
+  {
+    "id": "a1ae2b38-e9af-47f3-acf2-ceaa0d4ed1e3",
+    "data": [
+      {
+        "text": "Can you set my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "3523",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582650
+  },
+  {
+    "id": "03108f14-6f12-46e7-bd36-f842ee8fc4e5",
+    "data": [
+      {
+        "text": "Please set my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "5000",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582650
+  },
+  {
+    "id": "aac6f0e8-a51b-47e8-8332-613f6e6645d7",
+    "data": [
+      {
+        "text": "budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548569254
+  },
+  {
+    "id": "c8a6d438-37a9-405f-95e8-7e3e9ab01240",
+    "data": [
+      {
+        "text": "my budget is ",
+        "userDefined": false
+      },
+      {
+        "text": "300",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548567143
+  },
+  {
+    "id": "802d3795-e9f5-4b2d-924f-f5d80b5a83ae",
+    "data": [
+      {
+        "text": "my budget is around ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548567143
+  },
+  {
+    "id": "151bbaef-2f2f-4cbb-a9ab-eb72fa484bdb",
+    "data": [
+      {
+        "text": "change my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "400",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565422
+  },
+  {
+    "id": "becb17d8-3e18-45b3-bb4f-a6a5e5d53367",
+    "data": [
+      {
+        "text": "Budget to 40",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556817
+  },
+  {
+    "id": "de60d82d-bd47-45ea-bd06-ab650c2a7b50",
+    "data": [
+      {
+        "text": "Set my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556724
+  },
+  {
+    "id": "4dc6865c-367a-43bc-9037-c22b3457fb51",
+    "data": [
+      {
+        "text": "three thousand dollars",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548551584
+  },
+  {
+    "id": "e7ff2a95-080e-4e91-abe1-aed92d12f5bf",
+    "data": [
+      {
+        "text": "two hundred",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548551584
+  },
+  {
+    "id": "734a4e29-4dcd-4ad0-892b-77dd693dfe66",
+    "data": [
+      {
+        "text": "8 thousand",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548551584
+  },
+  {
+    "id": "f6eef12f-3b2b-48e7-9f4a-261793b0e8de",
+    "data": [
+      {
+        "text": "2 hundred",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548551584
+  },
+  {
+    "id": "fb294365-abec-48d6-9276-3dd40173b1dc",
+    "data": [
+      {
+        "text": "my budget\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "300",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548570486
+  },
+  {
+    "id": "20b75fc0-8a50-4fc6-972b-b552eeafd723",
+    "data": [
+      {
+        "text": "my budget is around ",
+        "userDefined": false
+      },
+      {
+        "text": "three hundred",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548570486
+  },
+  {
+    "id": "58b67659-969c-4a27-b797-62050b55213b",
+    "data": [
+      {
+        "text": "budget ",
+        "userDefined": false
+      },
+      {
+        "text": "150",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548570486
+  },
+  {
+    "id": "4483c50b-1811-42b2-9e22-a50de5d9d05b",
+    "data": [
+      {
+        "text": "my budget is around ",
+        "userDefined": false
+      },
+      {
+        "text": "100 dollars",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548570486
+  },
+  {
+    "id": "d76a0173-555f-4f30-b3c2-4bc7628e679e",
+    "data": [
+      {
+        "text": "5 hundred",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548551302
+  },
+  {
+    "id": "61f4352f-53c7-4661-89bf-46c23bc6e13b",
+    "data": [
+      {
+        "text": "500",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " is my budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548548016
+  },
+  {
+    "id": "093095e3-c373-4195-ac5f-100a14734acf",
+    "data": [
+      {
+        "text": "480",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollras budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544556
+  },
+  {
+    "id": "56c4d313-7b20-446a-a423-d68a5b7756aa",
+    "data": [
+      {
+        "text": "60",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1548544556
+  },
+  {
+    "id": "ebafb755-883b-4446-a5a4-348d6d8ba69a",
+    "data": [
+      {
+        "text": "1000",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544556
+  },
+  {
+    "id": "820ea139-2e25-4d87-b727-f5294a17e327",
+    "data": [
+      {
+        "text": "Change my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "200",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556724
+  },
+  {
+    "id": "4120528b-f4ad-4fe6-9b5e-e122d290e709",
+    "data": [
+      {
+        "text": "Change my budget to ",
+        "userDefined": false
+      },
+      {
+        "text": "thirty",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548556724
+  },
+  {
+    "id": "4edf0d40-9a2b-43cd-963b-df4c4bc5d1c8",
+    "data": [
+      {
+        "text": "30",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544556
+  },
+  {
+    "id": "0678a3a2-11d6-44cd-b2fc-a0e4dee0777e",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "2934",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544556
+  },
+  {
+    "id": "fef45448-381a-485a-862c-924007006876",
+    "data": [
+      {
+        "text": "01924",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544556
+  },
+  {
+    "id": "825cac04-09b6-4b25-9b0c-abbdafa5cf45",
+    "data": [
+      {
+        "text": "4125219",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548546102
+  },
+  {
+    "id": "b95e9741-4ae7-40d3-9059-1e150e964cd4",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548544205
+  },
+  {
+    "id": "684287b5-b192-409e-93c4-0514c3e8331e",
+    "data": [
+      {
+        "text": "40",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563703
+  },
+  {
+    "id": "4750e9fb-2ca6-4594-996f-d9c1a898c028",
+    "data": [
+      {
+        "text": "1000",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dolalrs budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563703
+  },
+  {
+    "id": "2b3ba3a3-4545-47b1-97ea-a4f4b175f3da",
+    "data": [
+      {
+        "text": "My budget is ",
+        "userDefined": false
+      },
+      {
+        "text": "500",
+        "alias": "budget",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548541125
+  }
+]

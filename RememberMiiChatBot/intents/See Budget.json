@@ -1,0 +1,31 @@
+{
+  "id": "71684a29-98d9-4160-8ef1-59ad80c2141f",
+  "name": "See Budget",
+  "auto": true,
+  "contexts": [
+    "Name",
+    "budgetexist"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your monthly budget is set to $#Name.budget"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548580688,
+  "fallbackIntent": false,
+  "events": []
+}

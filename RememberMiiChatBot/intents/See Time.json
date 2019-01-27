@@ -1,0 +1,31 @@
+{
+  "id": "95a3b0b5-b491-4352-8e6d-dc3bc763b086",
+  "name": "See Time",
+  "auto": true,
+  "contexts": [
+    "Name",
+    "timeexists"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your preferred time of day is set to #Name.Time"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548585205,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "05201412-1a0b-4b7e-9dd0-2ca662da3ac7",
+    "data": [
+      {
+        "text": "What is my time status",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565828
+  },
+  {
+    "id": "cbc906b6-5c91-492b-b8f3-6301f42d3dd3",
+    "data": [
+      {
+        "text": "What time do I like the most?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565828
+  },
+  {
+    "id": "a198d12f-713e-4bfe-9343-73d18f7aecac",
+    "data": [
+      {
+        "text": "What is my preferred time set to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565828
+  },
+  {
+    "id": "6ea18eaf-a521-4067-b2c0-e5de421546a8",
+    "data": [
+      {
+        "text": "What is my preferred time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565828
+  }
+]

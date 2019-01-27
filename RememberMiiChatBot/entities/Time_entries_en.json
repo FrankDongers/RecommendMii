@@ -1,0 +1,32 @@
+[
+  {
+    "value": "Morning",
+    "synonyms": [
+      "Morning",
+      "early bird",
+      "AM",
+      "early",
+      "early",
+      "mornings",
+      "crazy early"
+    ]
+  },
+  {
+    "value": "Afternoon",
+    "synonyms": [
+      "Afternoon",
+      "brunch",
+      "mid day",
+      "middle"
+    ]
+  },
+  {
+    "value": "Night",
+    "synonyms": [
+      "Night",
+      "owl",
+      "late",
+      "nights"
+    ]
+  }
+]

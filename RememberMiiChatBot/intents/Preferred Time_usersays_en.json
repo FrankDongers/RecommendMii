@@ -1,0 +1,272 @@
+[
+  {
+    "id": "d43d97be-c04e-4d13-8d6d-6d1adaa1dae3",
+    "data": [
+      {
+        "text": "change my preferred time to ",
+        "userDefined": false
+      },
+      {
+        "text": "afternoon",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565469
+  },
+  {
+    "id": "8f75e9f0-fae1-4f87-870e-d4ac629e988c",
+    "data": [
+      {
+        "text": "I love the ",
+        "userDefined": false
+      },
+      {
+        "text": "mornings",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565084
+  },
+  {
+    "id": "3f211dba-3fab-49a5-8a0a-e76690d63340",
+    "data": [
+      {
+        "text": "my time of day is ",
+        "userDefined": false
+      },
+      {
+        "text": "morning",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565084
+  },
+  {
+    "id": "a0cdc94f-8859-40f3-a846-d28aba01d2af",
+    "data": [
+      {
+        "text": "set my time to ",
+        "userDefined": false
+      },
+      {
+        "text": "night",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565084
+  },
+  {
+    "id": "ddf32bd4-5e93-4f3d-a178-f60d5c6fbe76",
+    "data": [
+      {
+        "text": "I wake up in the ",
+        "userDefined": false
+      },
+      {
+        "text": "AM",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564436
+  },
+  {
+    "id": "cc7e0d03-ef5a-4699-9137-6e6371798a4d",
+    "data": [
+      {
+        "text": "My preferred time of day is the ",
+        "userDefined": false
+      },
+      {
+        "text": "mornings",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564436
+  },
+  {
+    "id": "4a46565f-076d-48e3-8a8c-08d4a6237b69",
+    "data": [
+      {
+        "text": "I like ",
+        "userDefined": false
+      },
+      {
+        "text": "mid day",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564374
+  },
+  {
+    "id": "93dadf1c-949d-4ff0-8495-3fe13901bf8d",
+    "data": [
+      {
+        "text": "I wake up ",
+        "userDefined": false
+      },
+      {
+        "text": "late",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564374
+  },
+  {
+    "id": "847a43d1-0457-4bc4-b509-01125bf1e08d",
+    "data": [
+      {
+        "text": "I prefer ",
+        "userDefined": false
+      },
+      {
+        "text": "afternoons",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564260
+  },
+  {
+    "id": "6a69fbdc-9d63-4316-b86b-f1adb22aa03a",
+    "data": [
+      {
+        "text": "Set my preferred time of day to ",
+        "userDefined": false
+      },
+      {
+        "text": "morning",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563220
+  },
+  {
+    "id": "c86a5d7f-128f-48d4-86c2-de7e6e7c0144",
+    "data": [
+      {
+        "text": "I sleep ",
+        "userDefined": false
+      },
+      {
+        "text": "late",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550713
+  },
+  {
+    "id": "53692c45-1d01-4aa2-82e6-f7d91b6bff2f",
+    "data": [
+      {
+        "text": "I wake up ",
+        "userDefined": false
+      },
+      {
+        "text": "early",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550713
+  },
+  {
+    "id": "3a09afe8-bbe2-4c91-a0a1-7747f84dff56",
+    "data": [
+      {
+        "text": "Afternoon",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      },
+      {
+        "text": " person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550713
+  },
+  {
+    "id": "c4632740-b813-4812-a6a7-eeef15b6c070",
+    "data": [
+      {
+        "text": "Night",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      },
+      {
+        "text": " person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550713
+  },
+  {
+    "id": "32e2807a-749b-426a-a7d5-bec55712855e",
+    "data": [
+      {
+        "text": "Morning",
+        "alias": "Time",
+        "meta": "@Time",
+        "userDefined": false
+      },
+      {
+        "text": " person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548550713
+  }
+]

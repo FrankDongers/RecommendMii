@@ -1,0 +1,37 @@
+{
+  "id": "ef200ea4-9e98-47bc-8c06-f484709a96ef",
+  "name": "Exit Final",
+  "auto": true,
+  "contexts": [
+    "budgetexist",
+    "ageexist",
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Have a great day #Name.given-name!",
+            "Thanks #Name.given-name!",
+            "Bye #Name.given-name!",
+            "See you later #Name.given-name!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548576645,
+  "fallbackIntent": false,
+  "events": []
+}

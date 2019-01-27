@@ -1,0 +1,326 @@
+[
+  {
+    "id": "9d2265b1-7e0e-4b88-98f6-12d48c21d951",
+    "data": [
+      {
+        "text": "yo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582835
+  },
+  {
+    "id": "91ce0cab-adb9-403f-b792-05602e965ec7",
+    "data": [
+      {
+        "text": "good morning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548573006
+  },
+  {
+    "id": "d10b0e0a-e55e-4e20-ad04-a61731c4ca0e",
+    "data": [
+      {
+        "text": "salutations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548573006
+  },
+  {
+    "id": "75ccb758-a0f6-4f56-8333-2ce462c9990e",
+    "data": [
+      {
+        "text": "greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571751
+  },
+  {
+    "id": "4966eeca-7f34-46a7-ace0-7cf98596978d",
+    "data": [
+      {
+        "text": "whats cooking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "0b248d70-b88e-425b-bc46-2eef5f1a743b",
+    "data": [
+      {
+        "text": "Whats up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571540
+  },
+  {
+    "id": "2ebd1bb7-7b4f-4afe-93f7-c997e5ffc6fb",
+    "data": [
+      {
+        "text": "hi mate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "b834bc17-c3ca-4d04-8023-24f703425eb8",
+    "data": [
+      {
+        "text": "hello mate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "5879cc8e-8165-4aa9-bc75-91aec1c23477",
+    "data": [
+      {
+        "text": "G\u0027day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "488f87fc-6ca9-4977-8b96-550cea5f3ca4",
+    "data": [
+      {
+        "text": "a good day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "054be000-5cb3-41b4-9e1c-75ba95a4641e",
+    "data": [
+      {
+        "text": "hello again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "425e9928-3d23-472b-971b-8fd0b016db6d",
+    "data": [
+      {
+        "text": "Gday",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548575203
+  },
+  {
+    "id": "ac5a224d-fb86-4f3f-9656-8479dc0a2142",
+    "data": [
+      {
+        "text": "I greet you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "db7d2e0b-eda8-4af2-a185-20dee5b807c7",
+    "data": [
+      {
+        "text": "lovely day isn\u0027t it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571887
+  },
+  {
+    "id": "943a3ecf-fb92-41c2-956d-ae3d3bba96ee",
+    "data": [
+      {
+        "text": "long time no see",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1548571751
+  },
+  {
+    "id": "c1e73604-f310-4a04-bfb1-10cd032fc2e9",
+    "data": [
+      {
+        "text": "hi there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571751
+  },
+  {
+    "id": "8126f680-3bab-465b-bfcc-ffaaa9896835",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571751
+  },
+  {
+    "id": "957e1e14-77a2-479e-8779-8d10c0d0f91f",
+    "data": [
+      {
+        "text": "hello hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571751
+  },
+  {
+    "id": "144760bf-7662-478d-9f2f-58711c15780e",
+    "data": [
+      {
+        "text": "just going to say hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571751
+  },
+  {
+    "id": "d48e6810-e41c-404e-9de3-c061d26e33d6",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1548571581
+  },
+  {
+    "id": "8075ae1a-5032-40e0-85b8-bc0d35e88b52",
+    "data": [
+      {
+        "text": "Sup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571540
+  },
+  {
+    "id": "3ecb0144-a26b-4e76-a07f-47cd1283f790",
+    "data": [
+      {
+        "text": "heya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548582835
+  },
+  {
+    "id": "3b9c4956-8865-41a8-be57-8b32ab1bdd1e",
+    "data": [
+      {
+        "text": "Howdy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548571540
+  },
+  {
+    "id": "1b810c3e-a139-4f78-b32b-3078a6e89c2d",
+    "data": [
+      {
+        "text": "Hola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548566323
+  },
+  {
+    "id": "373867e6-edf2-4912-a20b-0ed65d70d315",
+    "data": [
+      {
+        "text": "How are you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548541222
+  },
+  {
+    "id": "b73b469d-665a-4fb5-aad5-933786812e4a",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548541222
+  },
+  {
+    "id": "89a7bc4e-db05-4e61-a55e-efa757fa1eed",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548541222
+  }
+]

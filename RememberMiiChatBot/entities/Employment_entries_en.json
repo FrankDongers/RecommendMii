@@ -1,0 +1,56 @@
+[
+  {
+    "value": "Part Time",
+    "synonyms": [
+      "Part",
+      "Part Time",
+      "Part-time",
+      "parttime",
+      "Parttime",
+      "Partially Employed",
+      "somewhat employed",
+      "Sometimes working",
+      "Partially",
+      "Occasionally",
+      "work sometimes",
+      "work half day",
+      "half day"
+    ]
+  },
+  {
+    "value": "Full Time",
+    "synonyms": [
+      "Full",
+      "Full Time",
+      "Full-time",
+      "fully employed",
+      "Fully Employed",
+      "Always working",
+      "Always",
+      "Fulltime",
+      "work all day",
+      "allday",
+      "all day"
+    ]
+  },
+  {
+    "value": "None",
+    "synonyms": [
+      "None",
+      "Jobless",
+      "Unemployed",
+      "jobless",
+      "no job",
+      "don\u0027t have a job",
+      "never working",
+      "student",
+      "high school"
+    ]
+  },
+  {
+    "value": "all day",
+    "synonyms": [
+      "all day"
+    ]
+  }
+]

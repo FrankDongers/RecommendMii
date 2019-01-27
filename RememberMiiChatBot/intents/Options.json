@@ -1,0 +1,47 @@
+{
+  "id": "da37fd08-76f3-4ce2-98f0-135e64770845",
+  "name": "Options",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "be221cc8-1f06-4ec4-b993-3807184c18b5",
+          "required": false,
+          "dataType": "@Menu",
+          "name": "Menu",
+          "value": "$Menu",
+          "isList": false
+        },
+        {
+          "id": "24cfac9e-c2a7-45a1-8bc5-85f126519112",
+          "required": false,
+          "dataType": "@Menu",
+          "name": "Menu1",
+          "value": "$Menu1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi #Name.given-name, you\u0027re able to view and set your: \n\nBudget, Age, Job Status (Full Time, Part time, No Job), and preferred Time of Day (morning, afternoon, night). \n\nSimply ask as if you were talking to a person and when you\u0027re finished, just say so!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548582901,
+  "fallbackIntent": false,
+  "events": []
+}

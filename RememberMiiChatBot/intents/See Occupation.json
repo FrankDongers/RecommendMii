@@ -1,0 +1,31 @@
+{
+  "id": "24a7d894-8426-4012-9933-1eafcffa7adb",
+  "name": "See Occupation",
+  "auto": true,
+  "contexts": [
+    "Name",
+    "occupationexists"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your job status is set to #Name.occupation"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548575700,
+  "fallbackIntent": false,
+  "events": []
+}

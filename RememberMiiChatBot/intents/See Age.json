@@ -1,0 +1,31 @@
+{
+  "id": "999f9894-5432-418d-b298-f0b57561fa71",
+  "name": "See Age",
+  "auto": true,
+  "contexts": [
+    "Name",
+    "ageexist"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your current age is set to #Name.Age years"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548575583,
+  "fallbackIntent": false,
+  "events": []
+}

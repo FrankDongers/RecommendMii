@@ -1,0 +1,28 @@
+{
+  "id": "94a5858e-1e42-4870-a238-89976c211f85",
+  "name": "Exit No budget or age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please set both your budget and age!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548572877,
+  "fallbackIntent": false,
+  "events": []
+}

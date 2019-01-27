@@ -1,0 +1,58 @@
+{
+  "id": "cba8ca88-6db6-46bf-964d-04e36bde46b9",
+  "parentId": "67a1c1ab-40e4-4dbc-b810-62bbb28a997a",
+  "rootParentId": "67a1c1ab-40e4-4dbc-b810-62bbb28a997a",
+  "name": "Budget",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [
+        {
+          "name": "budgetexist",
+          "parameters": {},
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5d69e7ad-0abb-4f96-8495-778484bfd460",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "budget",
+          "value": "$budget",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I didn\u0027t quite catch that"
+            },
+            {
+              "lang": "en",
+              "value": "Please try again"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your budget has been changed to $ $budget"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548582741,
+  "fallbackIntent": false,
+  "events": []
+}

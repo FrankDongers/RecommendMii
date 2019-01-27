@@ -1,0 +1,107 @@
+[
+  {
+    "id": "7da8b5f5-bea7-4ebf-a697-1a0c9a93cfcf",
+    "data": [
+      {
+        "text": "How much do I have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565353
+  },
+  {
+    "id": "94d293e7-9a39-4e52-ba8b-a5dc5c5a7df0",
+    "data": [
+      {
+        "text": "How much money do I have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548565353
+  },
+  {
+    "id": "d7112069-6c16-4b44-8325-1fb68fd4ee96",
+    "data": [
+      {
+        "text": "How much ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " I have allocated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564667
+  },
+  {
+    "id": "706dd030-1d65-470d-adf4-9a8570133d33",
+    "data": [
+      {
+        "text": "Tell me my budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548564667
+  },
+  {
+    "id": "7778994f-7525-4257-9174-cda5a109d6f4",
+    "data": [
+      {
+        "text": "Display Budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563609
+  },
+  {
+    "id": "889048cb-27c9-4ad4-bc7f-10833e7256d2",
+    "data": [
+      {
+        "text": "Show Budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563609
+  },
+  {
+    "id": "4f046d2f-01da-49e8-8a20-27f584763454",
+    "data": [
+      {
+        "text": "Current Budget",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563609
+  },
+  {
+    "id": "9777187b-c12c-497d-894f-500aabd67f52",
+    "data": [
+      {
+        "text": "What is my budget?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548563609
+  }
+]

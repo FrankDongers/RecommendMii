@@ -1,0 +1,62 @@
+{
+  "id": "e4dfdc73-907f-46a6-be8a-7b850b41d77d",
+  "parentId": "cba8ca88-6db6-46bf-964d-04e36bde46b9",
+  "rootParentId": "67a1c1ab-40e4-4dbc-b810-62bbb28a997a",
+  "name": "Age",
+  "auto": true,
+  "contexts": [
+    "Name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom.Budget-custom",
+      "affectedContexts": [
+        {
+          "name": "ageexist",
+          "parameters": {},
+          "lifespan": 99
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d72981c8-c96e-4f8e-bc07-5db0b0c92d84",
+          "required": true,
+          "dataType": "@Age",
+          "name": "Age",
+          "value": "$Age",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are you sure that\u0027s your age? Try again"
+            },
+            {
+              "lang": "en",
+              "value": "That is scientifically improbable"
+            },
+            {
+              "lang": "en",
+              "value": "I highly doubt that"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#Name.given-name, your age has been changed to $Age years."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548583107,
+  "fallbackIntent": false,
+  "events": []
+}
