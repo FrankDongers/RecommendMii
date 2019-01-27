@@ -8,51 +8,13 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-    public static var globalJSON: [String: Any] = [
-        "id": 0,
-        "value": 0
-    ];
-
+    
+    
     @IBOutlet weak var Text1: UITextField!
     @IBOutlet weak var Text2: UITextField!
     @IBOutlet weak var Text3: UITextField!
     @IBOutlet weak var Text4: UITextField!
     @IBOutlet weak var Text5: UITextField!
-    
-    func runTimedCode() {
-        //create the url with NSURL
-        let url = URL(string: "https://recommendmii-343b5.firebaseio.com/transactions.json")! //change the url
-        
-        //create the session object
-        let session = URLSession.shared
-        
-        //now create the URLRequest object using the url object
-        let request = URLRequest(url: url)
-        
-        //create dataTask using the session object to send data to the server
-        let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
-            
-            guard error == nil else {
-                return
-            }
-            
-            guard let data = data else {
-                return
-            }
-            
-            do {
-                //create json object from data
-                if let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String: Any] {
-                    //print(json)
-                    FirstViewController.globalJSON = json
-                }
-            } catch let error {
-                print(error.localizedDescription)
-            }
-        })
-        task.resume()
-    }
-    
        @IBAction func NextButton(_ sender: Any) {
         self.view.endEditing(true)
         
@@ -109,14 +71,11 @@ class FirstViewController: UIViewController {
             UserDefaults.standard.set(Text5.text,forKey: "CurrentExpense5")
         }
         
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var gameTimer: Timer!
-        
-        gameTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
-        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
         //Uncomment the line below if you want the tap not not interfere and cancel other interactions.

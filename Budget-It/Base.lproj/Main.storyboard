@@ -48,39 +48,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2rh-5z-3FR">
-                                <rect key="frame" x="0.0" y="64" width="414" height="615"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2rh-5z-3FR">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="nextlocationButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Q2-ik-JXY">
-                                <rect key="frame" x="0.0" y="605" width="414" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Location" backgroundImage="second">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="nextLocation:" destination="4XG-BB-Tt4" eventType="touchUpInside" id="QFY-gh-uzo"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="DdG-DJ-O7a" appends="YES" id="l59-ZH-87N"/>
-                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Live Tracker" image="map" id="4fW-zZ-1si"/>
-                    <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="map" destination="2rh-5z-3FR" id="i7t-lQ-AyK"/>
-                        <outlet property="nextLocationButton" destination="4Q2-ik-JXY" id="cXe-19-I8q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apU-ld-8Vu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="DdG-DJ-O7a"/>
             </objects>
-            <point key="canvasLocation" x="1398.5507246376812" y="-1151.0869565217392"/>
+            <point key="canvasLocation" x="1401" y="-1150"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="YG3-8x-1D3">
@@ -1332,7 +1314,6 @@
         <image name="rest" width="873" height="873"/>
         <image name="retail" width="873" height="873"/>
         <image name="savings" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
         <image name="trans" width="873" height="873"/>
         <image name="transactions" width="30" height="30"/>
     </resources>
