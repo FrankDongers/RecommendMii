@@ -1,5 +1,5 @@
 {
-  "description": "The chatbot for RememberMii app! Users can set and change their name, age, budget, job status, and preferred time of day for further use in the app. To get started, say hello!",
+  "description": "The chatbot for RememberMii app! Users can set and change their name, age, budget, job status, and preferred time of day for further use in the app. To get started, say hello!  \n\nExample statements: \n\"Hello!\"\n\"My name is John Doe\"\n\"What are my options?\"\n\"Please set my budget to $500\"\n\"What is my budget?\"\n\"Good  bye!\"",
   "language": "en",
   "activeAssistantAgents": [],
   "disableInteractionLogs": true,
