@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import Budget_It
 
 class Budget_ItUITests: XCTestCase {
         

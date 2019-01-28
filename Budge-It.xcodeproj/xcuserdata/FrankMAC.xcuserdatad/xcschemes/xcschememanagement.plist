@@ -6,8 +6,28 @@
 	<dict>
 		<key>Budget-It.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A51E3A871FC097C000EB77A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A51E3A9D1FC097C000EB77A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A51E3AA81FC097C000EB77A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

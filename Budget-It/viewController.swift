@@ -1,17 +1,19 @@
 //
 //  FirstViewController.swift
-//  Budget-It
+//  RecommendMii
 //
-//  Created by Weija Zhou on 2017-11-18.
-//  Copyright © 2017 Weija Zhou. All rights reserved.
 //
 import UIKit
 
 class viewController: UIViewController {
+
     
     @IBOutlet weak var myWebView: UIWebView!
+    @IBOutlet weak var advisorView: UIWebView!
+    
     override func viewDidLoad() {
-        myWebView.loadRequest(URLRequest(url: URL(string: "https://my.wealthsimple.com/app/start?")!))
+        myWebView.loadRequest(URLRequest(url: URL(string: "https://my.wealthsimple.com/app/start?")!));
+        advisorView.loadRequest(URLRequest(url: URL(string: "https://bot.dialogflow.com/remembermii")!));
         super.viewDidLoad()
         //Uncomment the line below if you want the tap n
     }

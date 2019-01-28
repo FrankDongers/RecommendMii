@@ -1,9 +1,6 @@
 //
 //  SecondViewController.swift
-//  Budget-It
-//
-//  Created by Weija Zhou on 2017-11-18.
-//  Copyright © 2017 Weija Zhou. All rights reserved.
+//  RecommendMii
 //
 import UIKit
 import CoreData
@@ -60,10 +57,10 @@ class ThirdViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
             print(x)
             let currentExpense =  Int(x!)
             print (currentExpense)
-            var text = InputField.text
-            var inputTextString = itemInput.text
-            var int_Text = Int(text!)
-            let newExpense = currentExpense! - int_Text!
+            var text = 200
+            var inputTextString = 200
+            var int_Text = 200
+            let newExpense = currentExpense! - 200
             let string_NewExpense = String(newExpense)
             UserDefaults.standard.removeObject(forKey: textNumber)
             UserDefaults.standard.set(string_NewExpense,forKey: textNumber)

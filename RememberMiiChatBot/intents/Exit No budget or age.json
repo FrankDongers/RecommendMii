@@ -12,12 +12,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": [
-            "Good bye! Please remember to set both your budget and age if you haven\u0027t already!",
-            "Bye! Please remember to set both your budget and age if you haven\u0027t already!",
-            "Good bye! A reminder to set both your budget and age if you haven\u0027t already!",
-            "Bye! A reminder to set both your budget and age if you haven\u0027t already!"
-          ]
+          "speech": "Please set both your budget and age!"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -27,7 +22,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1548709421,
+  "lastUpdate": 1548572877,
   "fallbackIntent": false,
   "events": []
 }
