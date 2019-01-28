@@ -1,20 +1,132 @@
 //
 //  FirstViewController.swift
-//  Budget-It
-//
-//  Created by Weija Zhou on 2017-11-18.
-//  Copyright © 2017 Weija Zhou. All rights reserved.
+//  RecommendMii
 //
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class FirstViewController: UIViewController {
+    public static var infoArray = [String?]()
+    public static var setArray = [String?]()
+    public static var recommendationArray = [String?]()
+    public static var mixList = [String?]()
+    public static var userName = "";
     
+    var ref: DatabaseReference?
     
     @IBOutlet weak var Text1: UITextField!
-    @IBOutlet weak var Text2: UITextField!
-    @IBOutlet weak var Text3: UITextField!
-    @IBOutlet weak var Text4: UITextField!
-    @IBOutlet weak var Text5: UITextField!
+    
+    func runTimedCode() {
+    
+        //create the session object
+        let session = URLSession.shared
+        
+        let keywordArray = ["ceeps","chatime","chipotle","coco","congee","dostacos","frog","happy","jacks","nandos","ozen","sharetea"];
+        
+        let recommendationsArray = ["BBT/set1.json","BBT/set2.json","BBT/set3.json","Dinner/set1.json","Dinner/set2.json","Dinner/set3.json","Lit-day/set1.json","Lit-day/set2.json","Lit-day/set3.json"];
+        
+        
+        let url = URL(string: "https://recommendmii-343b5.firebaseio.com/users/1/recommendations.json")!
+        //now create the URLRequest object using the url object
+        let request = URLRequest(url: url)
+        
+        //create dataTask using the session object to send data to the server
+        let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+            
+            guard error == nil else {
+                return
+            }
+            
+            guard let data = data else {
+                return
+            }
+            
+            do {
+                //create json object from data
+                let json = try JSONSerialization.jsonObject(with: data, options: []) as! Dictionary<String,AnyObject>
+                for (key, value) in json {
+                    FirstViewController.mixList.append(key as? String);
+                }
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        })
+        task.resume()
+        
+        var count = 0;
+        
+        while (count < 12){
+            let url = URL(string: "https://recommendmii-343b5.firebaseio.com/vendors/" + keywordArray[count] + ".json")!
+            print ("===========================")
+            print (url)
+            //now create the URLRequest object using the url object
+            let request = URLRequest(url: url)
+            
+            //create dataTask using the session object to send data to the server
+            let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+                
+                guard error == nil else {
+                    return
+                }
+                
+                guard let data = data else {
+                    return
+                }
+                
+                do {
+                    //create json object from data
+                    let json = try JSONSerialization.jsonObject(with: data, options: []) as! Dictionary<String,AnyObject>
+                    for (key, value) in json {
+                        print("\(key) -> \(value)")
+                        FirstViewController.infoArray.append(value as? String);
+                    }
+                } catch let error {
+                    print(error.localizedDescription)
+                }
+            })
+            count = count + 1;
+            task.resume()
+        }
+        
+        var newcount = 0
+        while (newcount < 9){
+            let url = URL(string: "https://recommendmii-343b5.firebaseio.com/users/1/recommendations/" + recommendationsArray[newcount])!
+            print ("===========================")
+            print (url)
+            //now create the URLRequest object using the url object
+            let request = URLRequest(url: url)
+            
+            //create dataTask using the session object to send data to the server
+            let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in
+                
+                guard error == nil else {
+                    return
+                }
+                
+                guard let data = data else {
+                    return
+                }
+                
+                do {
+                    //create json object from data
+                    let json = try JSONSerialization.jsonObject(with: data, options: []) as! NSArray
+                    //for (key, value) in json {
+                    FirstViewController.recommendationArray.append(json[0] as? String);
+                    FirstViewController.recommendationArray.append(json[1] as? String);
+                    FirstViewController.recommendationArray.append(json[2] as? String);
+                     //   print("adding to list (THE VALUE AS STRING)")
+                     //   print("\(key) -> \(value)")
+                    //}
+                } catch let error {
+                    print(error.localizedDescription)
+                }
+            })
+            newcount = newcount + 1;
+            task.resume()
+        }
+    }
+    
        @IBAction func NextButton(_ sender: Any) {
         self.view.endEditing(true)
         
@@ -29,53 +141,16 @@ class FirstViewController: UIViewController {
             UserDefaults.standard.set(Text1.text,forKey: "CurrentExpense1")
             
         }
-        if(isKeyPresentInUserDefaults(key: "TotalExpense2")){
-            UserDefaults.standard.removeObject(forKey: "TotalExpense2")
-            UserDefaults.standard.set(Text2.text,forKey: "TotalExpense2")
-            UserDefaults.standard.removeObject(forKey: "CurrentExpense2")
-            UserDefaults.standard.set(Text2.text,forKey: "CurrentExpense2")
-        }
-        else{
-            UserDefaults.standard.set(Text2.text,forKey: "TotalExpense2")
-            UserDefaults.standard.set(Text2.text,forKey: "CurrentExpense2")
-            
-        }
-        
-        if(isKeyPresentInUserDefaults(key: "TotalExpense3")){
-            UserDefaults.standard.removeObject(forKey: "TotalExpense3")
-            UserDefaults.standard.set(Text3.text,forKey: "TotalExpense3")
-            UserDefaults.standard.removeObject(forKey: "CurrentExpense3")
-            UserDefaults.standard.set(Text3.text,forKey:"CurrentExpense3") }
-        else{
-            UserDefaults.standard.set(Text3.text,forKey: "TotalExpense3")
-            UserDefaults.standard.set(Text3.text,forKey: "CurrentExpense3")
-            
-        }
-        if(isKeyPresentInUserDefaults(key: "TotalExpense4")){
-            UserDefaults.standard.removeObject(forKey: "TotalExpense4")
-            UserDefaults.standard.set(Text4.text,forKey: "TotalExpense4")
-            UserDefaults.standard.removeObject(forKey: "CurrentExpense4")
-            UserDefaults.standard.set(Text4.text,forKey:"CurrentExpense4")
-        }
-        else{
-            UserDefaults.standard.set(Text4.text,forKey: "TotalExpense4")
-            UserDefaults.standard.set(Text4.text,forKey: "CurrentExpense4")
-        }
-        if(isKeyPresentInUserDefaults(key: "TotalExpense5")){
-            UserDefaults.standard.removeObject(forKey: "TotalExpense5")
-            UserDefaults.standard.set(Text5.text,forKey: "TotalExpense5")
-            UserDefaults.standard.removeObject(forKey: "CurrentExpense5")
-            UserDefaults.standard.set(Text5.text,forKey:"CurrentExpense5")}
-        else{
-            UserDefaults.standard.set(Text5.text,forKey: "TotalExpense5")
-            UserDefaults.standard.set(Text5.text,forKey: "CurrentExpense5")
-        }
-        
-        
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        runTimedCode()
+        
+        
+        //var gameTimer: Timer!
+        
+        //gameTimer = Timer.scheduledTimer(timeInterval: 50, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
+        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
         //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
