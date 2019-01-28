@@ -1,7 +1,9 @@
 //
 //  ViewController.swift
-//  RecommendMii
+//  jack
 //
+//  Created by Jackie Yan on 2017-11-18.
+//  Copyright © 2017 Jackie Yan. All rights reserved.
 //
 
 
@@ -12,8 +14,6 @@ import CoreLocation
 import UserNotifications
 
 class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
-    @IBOutlet weak var nextLocationButton: UIButton!
-    
     
     //Map
     
@@ -100,23 +100,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     }
     
     func setupData() {
-        nextLocationButton.isHidden = true
-        
-        let locationNames = [FifthViewController.storedMapValues[0], FifthViewController.storedMapValues[1], FifthViewController.storedMapValues[2]]
-        let coordinates = [CLLocationCoordinate2DMake(42.9924607, -81.25214140000003)]
         // check if system can monitor regions
         if CLLocationManager.isMonitoringAvailable(for: CLCircularRegion.self) {
             
             // region data
-            var title = locationNames[0]
-            type = "rest"
+            var title = "Jackie's Sports Emporium"
+            type = "retail"
             //need to specify type of expense
-            var coordinate = coordinates[0]
-            var regionRadius = 20.0
+            var coordinate = CLLocationCoordinate2DMake(42.9988376, -81.2784611)
+            var regionRadius = 5.0
             
             // setup region
             var region = CLCircularRegion(center: CLLocationCoordinate2D(latitude: coordinate.latitude,
-                                                                         longitude: coordinate.longitude), radius: regionRadius, identifier: title!)
+                                                                         longitude: coordinate.longitude), radius: regionRadius, identifier: title)
             locationManager.startMonitoring(for: region)
             
             // setup annotation
@@ -127,6 +123,52 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             
             // setup circle
             var circle = MKCircle(center: coordinate, radius: regionRadius)
+            map.add(circle)
+            
+            
+            // region data
+            title = "Zaggy's Tech-Palace"
+            type = "enter"
+            //need to specify type of expense
+            coordinate = CLLocationCoordinate2DMake(43.000690, -81.276636)
+            regionRadius = 40.0
+            
+            // setup region
+            region = CLCircularRegion(center: CLLocationCoordinate2D(latitude: coordinate.latitude,
+                                                                     longitude: coordinate.longitude), radius: regionRadius, identifier: title)
+            locationManager.startMonitoring(for: region)
+            
+            // setup annotation
+            restaurantAnnotation = MKPointAnnotation()
+            restaurantAnnotation.coordinate = coordinate;
+            restaurantAnnotation.title = "\(title)";
+            map.addAnnotation(restaurantAnnotation)
+            
+            // setup circle
+            circle = MKCircle(center: coordinate, radius: regionRadius)
+            map.add(circle)
+            
+            
+            // region data
+            title = "Weija's Butchershop"
+            type = "rest"
+            //need to specify type of expense
+            coordinate = CLLocationCoordinate2DMake(43.001594, -81.277124)
+            regionRadius = 40.0
+            
+            // setup region
+            region = CLCircularRegion(center: CLLocationCoordinate2D(latitude: coordinate.latitude,
+                                                                     longitude: coordinate.longitude), radius: regionRadius, identifier: title)
+            locationManager.startMonitoring(for: region)
+            
+            // setup annotation
+            restaurantAnnotation = MKPointAnnotation()
+            restaurantAnnotation.coordinate = coordinate;
+            restaurantAnnotation.title = "\(title)";
+            map.addAnnotation(restaurantAnnotation)
+            
+            // setup circle
+            circle = MKCircle(center: coordinate, radius: regionRadius)
             map.add(circle)
             
         }
@@ -173,18 +215,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         let regionMaxVisiting = 2.5
         if NSDate().timeIntervalSince(entrytime as Date) > regionMaxVisiting {
             if type == "rest" {
-                nextLocationButton.isHidden = false
-                var temp1 = "Remember your budget for foodie is $"
+                var temp1 = "Remember your budget for Food is $"
                 showAlert(temp1 + x!)
             }
             else if type == "enter" {
-                nextLocationButton.isHidden = false
                 var temp2 = "Remember your budget for Entertainment is $"
                 showAlert(temp2 + y!)
                 
             }
             else if type == "retail" {
-                nextLocationButton.isHidden = false
                 var temp3 = "Remember your budget for Retail is  $"
                 showAlert(temp3 + z!)
                 
@@ -231,38 +270,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         self.present(alert, animated: true, completion: nil)
     }
     
-    @IBAction func nextLocation(_ sender: UIButton) {
-        print ("Button Triggered")
-         let locationNames = [FifthViewController.storedMapValues[0], FifthViewController.storedMapValues[1], FifthViewController.storedMapValues[2]]
-        
-        //remove map overlays
-        let overlays = map.overlays
-        map.removeOverlays(overlays)
-        let allAnnotations = self.map.annotations
-        self.map.removeAnnotations(allAnnotations)
-        
-        // region data
-        var title = locationNames[1]
-        var type = "rest"
-        //need to specify type of expense
-        var coordinate = CLLocationCoordinate2DMake(43.001594, -81.277124)
-        var regionRadius = 20.0
-        
-        // setup region
-        var region = CLCircularRegion(center: CLLocationCoordinate2D(latitude: coordinate.latitude,
-                                                                     longitude: coordinate.longitude), radius: regionRadius, identifier: title!)
-        locationManager.startMonitoring(for: region)
-        
-        // setup annotation
-        var restaurantAnnotation = MKPointAnnotation()
-        restaurantAnnotation.coordinate = coordinate;
-        restaurantAnnotation.title = "\(title)";
-        map.addAnnotation(restaurantAnnotation)
-        
-        // setup circle
-        var circle = MKCircle(center: coordinate, radius: regionRadius)
-        map.add(circle)
-    }
     
 }
 

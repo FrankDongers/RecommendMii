@@ -1,7 +1,9 @@
 //
 //  SecondViewController.swift
-//  RecommendMii
+//  Budget-It
 //
+//  Created by Weija Zhou on 2017-11-18.
+//  Copyright © 2017 Weija Zhou. All rights reserved.
 //
 import UIKit
 import SafariServices
